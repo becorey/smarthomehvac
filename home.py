@@ -1,3 +1,5 @@
+from hvac import HVAC
+
 class Home(object):
     # Contains Rooms, Ducts, and HVAC
     def __init__(self):
@@ -56,6 +58,7 @@ class Wall(object):
          # conductivity [W/m-C], thickness [m]
         self.length = length
         self.height = height
+        self.temperature = 24.0
         return
 
 class Duct(object):

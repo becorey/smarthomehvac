@@ -2,7 +2,6 @@
 from pprint import pprint
 from controller import Controller
 from home import Home
-from hvac import HVAC
 from occupant import Occupant
 
 

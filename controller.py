@@ -4,3 +4,5 @@ class Controller(object):
     #   Home.HVAC.blower and Home.HVAC.coil
     def __init__(self):
         return
+
+    # max vent air speed = 0.20 m/s
